@@ -1,0 +1,35 @@
+/* This is the general.css file where it will be accessible for all the project
+files and folders anywhere within the project.
+We just need to declare its link in the head tag of the index.html */
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:bisque;
+}
+.navbar-effect {
+    box-shadow: 10px 10px 10px 10px;
+    font-weight: bolder;
+    color:coral;
+}
+.navbar-effect a{
+    text-decoration: none;
+}
+.navbar-effect a:hover{
+    background-color:coral;
+    border-radius:20ps;
+    transition:2s;
+}
+
+
+@media(max-width:900px){
+    .navbar-effect a:hover{
+        border-radius: 0%;
+    }
+}
+
+.table-bg {
+    background-color:coral;
+}

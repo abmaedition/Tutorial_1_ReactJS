@@ -1,0 +1,30 @@
+.card-title {
+    background-color:coral;
+    border-radius:10px;
+}
+.card {
+    width:75%;
+    margin: 0 auto;
+    box-shadow:10px 0 10px 0;
+    margin-top:5px;
+    padding:5px;
+    background-color:blanchedalmond;
+}
+.card-title, .card-body, .card-footer {
+    padding:5px;
+    color:black;
+}
+.card-body b {
+    border-bottom:2px solid coral;
+}
+.card:hover{
+    color:brown;
+    box-shadow:10px 10px 10px 10px;
+}
+
+
+@media(max-width:991px){
+    .card {
+        width: 100%;
+    }
+}
